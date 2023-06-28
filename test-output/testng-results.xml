@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30416" started-at="2023-01-06T11:34:26 IST" finished-at="2023-01-06T11:34:57 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30416" started-at="2023-01-06T11:34:26 IST" finished-at="2023-01-06T11:34:57 IST">
+      <class name="com.raghib.pomwithoutpagefactory.GoogleSearchPageTest">
+        <test-method status="PASS" signature="executeTest()[pri:0, instance:com.raghib.pomwithoutpagefactory.GoogleSearchPageTest@1f7030a6]" name="executeTest" duration-ms="15546" started-at="2023-01-06T11:34:26 IST" finished-at="2023-01-06T11:34:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+      </class> <!-- com.raghib.pomwithoutpagefactory.GoogleSearchPageTest -->
+      <class name="com.raghib.extentreport.ExtentReportDemo">
+        <test-method status="PASS" signature="landingPage()[pri:0, instance:com.raghib.extentreport.ExtentReportDemo@5a1c0542]" name="landingPage" duration-ms="539" started-at="2023-01-06T11:34:42 IST" finished-at="2023-01-06T11:34:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPage -->
+      </class> <!-- com.raghib.extentreport.ExtentReportDemo -->
+      <class name="com.raghib.pomwithoutpagefactory.GoogleSearchPageObjectsTest">
+        <test-method status="PASS" signature="executeTest()[pri:0, instance:com.raghib.pomwithoutpagefactory.GoogleSearchPageObjectsTest@396f6598]" name="executeTest" duration-ms="14270" started-at="2023-01-06T11:34:42 IST" finished-at="2023-01-06T11:34:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+      </class> <!-- com.raghib.pomwithoutpagefactory.GoogleSearchPageObjectsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
