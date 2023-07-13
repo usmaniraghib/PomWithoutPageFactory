@@ -8,12 +8,12 @@ public class GoogleSearchPage {
 	private static WebElement webElementObj = null;
 	
 	public static WebElement textBoxSearch(WebDriver driver) {
-		webElementObj = driver.findElement(By.xpath("//input[@name='q']"));
+		webElementObj = driver.findElement(By.xpath("//*[@id='APjFqb']"));
 		return webElementObj;		
 	}
 	
 	public static WebElement buttonSearch(WebDriver driver) {
-		webElementObj = driver.findElement(By.xpath("//input[@class='gLFyf']"));
+		webElementObj = driver.findElement(By.xpath("//div[@class='FPdoLc lJ9FBc']//center//input[@class='gNO89b']"));
 		return webElementObj;		
 	}
 

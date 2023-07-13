@@ -14,8 +14,8 @@ public class GoogleSearchPageObjects {
 	}
 	
 	//OBJECT LOCATORS
-	By textBoxSearch = By.xpath("//input[@name='q']");
-	By buttonSearch = By.xpath("//input[@class='gLFyf']");
+	By textBoxSearch = By.xpath("//*[@id='APjFqb']");
+	By buttonSearch = By.xpath("//div[@class='FPdoLc lJ9FBc']//center//input[@class='gNO89b']");
 	
 	
 	//ACTION METHODS

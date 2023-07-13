@@ -17,6 +17,7 @@ public class GoogleSearchPageObjectsTest {
 	public static void executeTest() throws Exception {
 		// Chrome Browser
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+File.separator+"browserdrivers"+File.separator+"chromedriver_win32"+File.separator+"chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
 		webDriverObj = new ChromeDriver();
 		
 		/*CREATE OBJECT FOR PAGE CLASS*/
