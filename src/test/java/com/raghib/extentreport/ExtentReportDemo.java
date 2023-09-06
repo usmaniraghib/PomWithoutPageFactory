@@ -22,5 +22,4 @@ public class ExtentReportDemo {
 		logger.log(Status.PASS, "Page Loaded Verified");
 		extentReports.flush();
 	}
-
 }
